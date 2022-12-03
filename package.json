@@ -1,0 +1,29 @@
+{
+  "name": "web3-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@project-serum/anchor": "^0.25.0",
+    "@solana/spl-token": "^0.3.6",
+    "@solana/wallet-adapter-base": "^0.9.19",
+    "@solana/wallet-adapter-react": "^0.15.25",
+    "@solana/wallet-adapter-react-ui": "^0.9.23",
+    "@solana/wallet-adapter-wallets": "^0.19.6",
+    "@solana/web3.js": "^1.67.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  }
+}
